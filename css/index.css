@@ -283,21 +283,39 @@ ul {
 }
 
 @media (max-width: 800px) {
-    header {
-        display: column-reverse
+    * {
+        align-items: center; 
+        width: 100%;
     }
+   
 
-
-    .container {
-        width: 40%;
-        margin: 0 auto; 
-    }
-  
-    nav a {
-       padding: 10%;
-   }
     
+  
+    nav {
+        width: 100%;
+        text-align: center;
+        flex-direction: column-reverse
+    }
+    nav a {
+        padding-bottom: 10%;
+        justify-content: center; 
+        
+    }
     .circle-image {
         display: none;
     }
+
+    .ino {
+        align-items: center;
+        font-size: 60%;
+    }
+    p {
+        padding: 5%;
+        
+    }   
+     
+    h2  {
+        padding-top: 10%
+    }
+    
 }
